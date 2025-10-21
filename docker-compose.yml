@@ -1,0 +1,31 @@
+version: '3.9'
+
+services:
+  api:
+    image: node:20-alpine
+    working_dir: /app
+    command: sh -c "npm install && npm run dev"
+    volumes:
+      - ./:/app
+      - youtube_data:/data/youtube
+    environment:
+      - NODE_ENV=development
+      - PORT=4000
+      - DATA_ROOT=/data/youtube
+      - JWT_SECRET=change-me-in-production
+    ports:
+      - '4000:4000'
+    depends_on:
+      - frontend
+
+  frontend:
+    image: node:20-alpine
+    working_dir: /app/frontend
+    command: sh -c "npm install && npm run dev -- --host 0.0.0.0"
+    volumes:
+      - ./:/app
+    ports:
+      - '5173:5173'
+
+volumes:
+  youtube_data:

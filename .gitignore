@@ -1,0 +1,8 @@
+node_modules/
+frontend/node_modules/
+backups/
+.env
+*.log
+.DS_Store
+npm-debug.log*
+yarn-error.log*
