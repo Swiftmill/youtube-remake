@@ -1,0 +1,13 @@
+{
+  "username": "creator",
+  "passwordHash": "$2b$10$K7aXrDvzM2ymlk/wEYB/7OYG1ChcxrFAuo0xO0jzAm8h1Hn0SI7Rm",
+  "role": "creator",
+  "createdAt": "2024-02-01T12:00:00.000Z",
+  "verified": true,
+  "email": "creator@youtube.lol",
+  "displayName": "Creator One",
+  "bio": "Tech and design deep dives.",
+  "avatar": "/public/uploads/creator-avatar.jpg",
+  "banner": "/public/uploads/creator-banner.jpg",
+  "subscribers": 12500
+}

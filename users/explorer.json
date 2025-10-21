@@ -1,0 +1,13 @@
+{
+  "username": "explorer",
+  "passwordHash": "$2b$10$wVvXLqXy2cYOhTWM4j7P9u1KZGJHTz7MKl1I2zlNz6D5x0wh28mTO",
+  "role": "creator",
+  "createdAt": "2024-03-15T18:30:00.000Z",
+  "verified": false,
+  "email": "explorer@youtube.lol",
+  "displayName": "Urban Explorer",
+  "bio": "Hidden gems around the world.",
+  "avatar": "/public/uploads/explorer-avatar.jpg",
+  "banner": "/public/uploads/explorer-banner.jpg",
+  "subscribers": 8300
+}

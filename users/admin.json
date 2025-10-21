@@ -1,0 +1,9 @@
+{
+  "username": "admin",
+  "passwordHash": "$2b$10$wGQZP.3oY9PqJ2Fkhohp7O1LcF.Yb3tIzG3B.gFKFLr0O31HjVQ2C",
+  "role": "admin",
+  "createdAt": "2024-01-01T00:00:00.000Z",
+  "verified": true,
+  "email": "admin@youtube.lol",
+  "displayName": "Site Administrator"
+}
